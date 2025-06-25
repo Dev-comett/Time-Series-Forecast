@@ -1,26 +1,79 @@
-# Time Series Forecasting with Seasonality
+# Time Series Forecasting with Prophet
 
-This repository contains a Jupyter Notebook that demonstrates time series forecasting using seasonal patterns and trend components. The code simulates synthetic data and applies key forecasting techniques using Python libraries like `numpy`, `matplotlib`, and `pandas`.
+This repository demonstrates time series forecasting using Facebook's Prophet model along with seasonal trend generation and visualization in Python. It’s ideal for learning how to model real-world time series data with trend and seasonality.
+
+---
 
 ## 📌 Key Features
 
-- Synthetic time series data generation
-- Inclusion of trend and seasonality
-- Visualization of time series data
-- Decomposition of trend and seasonal effects
-- Clean and educational structure suitable for learning and experimenting
+- Time series data generation with trend + seasonality
+- Forecasting using Facebook Prophet
+- Visualizations with `matplotlib`
+- Model saving as `.pkl` file
+- Notebook format for easy experimentation
 
-## 📊 Techniques Covered
+---
 
-- Trend + Seasonal signal modeling
-- Noise injection to simulate real-world scenarios
-- Sinusoidal modeling of seasonal patterns
-- Line plots using Matplotlib
-- Numpy-based array manipulations
+## 🤖 Model Used
 
-## 🔧 Requirements
+### 👉 [Prophet](https://facebook.github.io/prophet/)
 
-Install dependencies via pip:
+Prophet is an open-source forecasting tool by Facebook designed to handle:
 
-```bash
-pip install numpy matplotlib pandas jupyter
+- Seasonality
+- Holidays
+- Trend shifts
+- Irregular data
+
+In this project, Prophet is trained on synthetic time series data and used to generate future predictions.
+
+---
+
+## 🧪 How to Use
+
+### 1. Install Requirements
+
+
+pip install pandas numpy matplotlib prophet
+If prophet throws build errors, try:
+
+
+pip install pystan==2.19.1.1
+pip install prophet
+2. Run the Notebook
+bash
+Copy
+Edit
+jupyter notebook
+Open time_series.ipynb and run all cells.
+
+📁 Files
+time_series.ipynb — Jupyter notebook containing data generation and forecasting
+
+Prophet_model.pkl — Trained Prophet model (saved)
+
+.gitignore — Standard Python ignore rules
+
+👤 Author
+Devansh Mishra
+📎 LinkedIn
+
+Feel free to ⭐ this repo if you found it helpful!
+
+
+
+---
+
+Let me know if you want me to:
+- Add example plots to the README (can generate them)
+- Convert it to a Streamlit app
+- Make a short demo video or binder badge for it  
+Happy to help you level it up!
+
+
+
+
+
+
+
+
