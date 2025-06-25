@@ -29,23 +29,8 @@ In this project, Prophet is trained on synthetic time series data and used to ge
 
 ---
 
-## 🧪 How to Use
-
-### 1. Install Requirements
 
 
-pip install pandas numpy matplotlib prophet
-If prophet throws build errors, try:
-
-
-pip install pystan==2.19.1.1
-pip install prophet
-2. Run the Notebook
-bash
-Copy
-Edit
-jupyter notebook
-Open time_series.ipynb and run all cells.
 
 📁 Files
 time_series.ipynb — Jupyter notebook containing data generation and forecasting
@@ -54,7 +39,7 @@ Prophet_model.pkl — Trained Prophet model (saved)
 
 .gitignore — Standard Python ignore rules
 
-👤 Author
+
 Devansh Mishra
 📎 LinkedIn  : https://www.linkedin.com/in/dev-ice
 
