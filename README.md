@@ -56,7 +56,7 @@ Prophet_model.pkl — Trained Prophet model (saved)
 
 👤 Author
 Devansh Mishra
-📎 LinkedIn
+📎 LinkedIn  : https://www.linkedin.com/in/dev-ice
 
 Feel free to ⭐ this repo if you found it helpful!
 
